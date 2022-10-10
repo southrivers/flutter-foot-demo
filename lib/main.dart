@@ -2,8 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:hw/home/main_foot_page.dart';
-import 'package:hw/screens/bottom_bar.dart';
-import 'package:hw/utils/app_style.dart';
 
 void main() {
   runApp(const MyApp());
