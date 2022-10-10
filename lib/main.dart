@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:hw/home/main_foot_page.dart';
 import 'package:hw/screens/bottom_bar.dart';
 import 'package:hw/utils/app_style.dart';
 
@@ -15,11 +16,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "同城订购",
+      title: "Flutter Demo",
       theme: ThemeData(
-        primaryColor: primary,
+        primaryColor: Colors.blue,
       ),
-      home: BottomBar(),
+      home: MainFoodPage(),
     );
   }
 }
